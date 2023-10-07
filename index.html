@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Poulet</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+</head>
+<body>
+
+    <div>
+        <img src="./img/bg.png" alt="" class="lg:h-full h-[400px] bg-cover bg-no-repeat bg-fixed w-full absolute">
+        <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+            <div class="container bg-transparent">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4 pt-2">
+                        <a href="#home" class="items-center">
+                            <img src="./img/poulet.png" alt="" class="w-[50px]  rounded-full">
+                        </a>
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                            <span class="hamburger-line origin-top-left transition duration-300 ease-in-out "></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out "></span>
+                            <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out "></span>
+                        </button>
+                        <nav id="nav-menu" class="hidden absolute bg-primaryColor py-5 shadow-md rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a href="#home" class="font-firaCode  xl:text-xl lg:text-2xl text-base text-secondaryColor    py-2 mx-8 flex ">Home</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#about" class="font-firaCode xl:text-xl lg:text-2xl text-base text-secondaryColor  py-2 mx-8 flex ">About</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#visi" class="font-firaCode xl:text-xl lg:text-2xl text-base text-secondaryColor    py-2 mx-8 flex ">Visi & Misi</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#product" class="font-firaCode xl:text-xl lg:text-2xl text-base text-secondaryColor   py-2 mx-8   flex ">Product</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#team" class="font-firaCode xl:text-xl lg:text-2xl text-base text-secondaryColor    py-2 mx-8 flex ">Team</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#contact" class="font-firaCode xl:text-xl lg:text-2xl text-base text-secondaryColor    py-2 mx-8 flex ">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <section id="home" class="pt-24 pb-24 lg:pb-96">
+            <div class="container relative pt-24 lg:pt-60">
+                <div class="text-center">
+                    <h1 class="font-bold text-white font-rubikMono lg:text-8xl">Poulet <span class="title"></span></h1>
+                    <h1 class="font-light italic text-white font-firaCode text-base lg:text-5xl">Ayam dengan Bumbu Nusantara</h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="pt-24 pb-10  bg-secondaryColor">
+            <img src="./img/bgart.png" alt="" class="invisible lg:visible absolute w-full">            
+            <h1 class="text-center font-medium italic pt-10 text-2xl font-firaCode text-black relative underline pb-5">About Us</h1>
+            <div class="container relative">
+                <div class="flex flex-wrap">
+                    <div align="center" class="px-4 pb-5 self-center w-full lg:w-1/2">
+                        <img src="./img/poulet.png" alt="" width="400" class="rounded-full shadow-lg shadow-black">
+                    </div>
+                    <div class="px-4 w-full self-center lg:w-1/2 pt-5">
+                        <h1 class="font-bold pb-5 text-primaryColor font-firaCode text-2xl">Welcome To Poulet Indonesien</h1>
+                        <p class="font-light pb-5 font-firaCode text-primaryColor text-lg lg:w-8/12">Poulet Indonesien adalah produk yang mengolah bahan makanan ayam dengan bumbu khas nusantara. Poulet sendiri diambil dari bahasa Prancis yang artinya ayam. </p>
+                        <p class="font-light pb-5 font-firaCode text-primaryColor text-lg lg:w-8/12">Menu poulet indonesien sendiri ada berbagai macam sauce saat ini yang tersedia adalah variant rendang, sambal ijo, rica rica dan original. Selain itu juga menyediakan 2 jenis minuman, wedang uwuh dan java tea. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="visi" class="pt-10 pb-20 bg-secondaryColor">
+            <h1 class="text-center font-medium italic pt-16 text-2xl font-firaCode text-black relative underline pb-5">Visi & Misi</h1>
+            <div class="container relative pt-5">
+                <div class="flex flex-wrap">
+                    <div class="lg:px-20 px-4 w-full lg:w-1/2">
+                        <h1 class="font-bold pb-5 text-primaryColor font-firaCode text-2xl">Visi</h1>
+                        <p class="font-light pb-5 font-firaCode text-primaryColor text-lg lg:w-8/12">Poulet Indonesien memiliki visi untuk mengembangkan bisnis di bidang makanan dan minuman dengan nuansa nusantara dan rempah rempah khas nusantara</p>
+                    </div>
+                    <div class="lg:px-20 px-4 w-full lg:w-1/2">
+                        <h1 class="font-bold pb-5 text-primaryColor font-firaCode text-2xl">Misi</h1>
+                        <p class="font-light pb-2 font-firaCode text-primaryColor text-lg lg:w-8/12">- Menjual produk dengan bumbu yang kaya rempah nusantara</p>
+                        <p class="font-light  font-firaCode text-primaryColor text-lg lg:w-8/12">- Memproduksi aneka makanan dengan tradisi nusantara</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="product" class="pt-24 pb-24 bg-gradient-to-br from-secondaryColor from-10% via-thirdColor via-40% to-darkColor to-60%">
+            <h1 class="text-center font-medium italic pt-16 text-2xl font-firaCode text-black relative underline pb-5">Product Catalogue</h1>
+            <div class="container">
+                <div class="flex flex-wrap items-center justify-center mt-5">
+                    <div class="px-4 grid-cols-1 grid lg:grid-cols-3 mt-5 gap-7 lg:gap-12">
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-primaryColor rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="rounded-t-xl" src="./img/bg.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h5 class="text-2xl font-bold font-firaCode tracking-tight text-secondaryColor">Poulet Rendang</h5>
+                                </a>
+                                <h1 class="font-bold font-firaCode text-lg text-white">Rp. 17.000</h1>
+                                <p class="mb-3 font-thin text-sm font-firaCode text-gray-300 line-through">Rp. 20.000</p>
+                                <a href="#" class="inline-flex text-primaryColor gap-2 items-center px-3 py-2 text-sm font-medium text-center bg-secondaryColor rounded-lg hover:text-black">
+                                    <img src="./img/cart.png" alt="" >
+                                    Buy Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="pb-10  bg-secondaryColor">
+            <img src="./img/bgart.png" alt="" class="invisible lg:visible absolute w-full h-[900px]">            
+            <h1 class="text-center font-medium italic pt-10 text-2xl font-firaCode text-black relative underline pb-5">Our Team</h1>
+            <div class="container">
+                <div class="flex flex-wrap items-center justify-center mt-5">
+                    <div class="px-4 grid-cols-1 grid lg:grid-cols-3 mt-5 mb-5 gap-7 lg:gap-12">
+                        <div class="max-w-sm bg-white/10 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="mt-8 px-8" src="./img/ryan.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h1 class="text-xl font-bold font-firaCode tracking-tight text-primaryColor">Ryan Rachmansyah</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-white/10 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="mt-8 px-8" src="./img/wildan.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h1 class="text-xl font-bold font-firaCode tracking-tight text-primaryColor">Ryan Rachmansyah</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-white/10 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="mt-8 px-8" src="./img/fauqih.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h1 class="text-xl font-bold font-firaCode tracking-tight text-primaryColor w-10/12 lg:w-8/12">Muhammad Faqih</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4 lg:px-20 mx-auto grid-cols-1 grid lg:grid-cols-3 mt-5 gap-7 lg:gap-12">
+                        <div class="max-w-sm bg-white/10 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="mt-8 px-8" src="./img/deny.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h1 class="text-xl font-bold font-firaCode tracking-tight text-primaryColor w-10/12 lg:w-8/12">Deny Aulia R</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="max-w-sm bg-white/10 backdrop-filter backdrop-blur-xl rounded-xl shadow-lg shadow-black">
+                            <a href="#">
+                                <img class="mt-8 px-8" src="./img/hoho.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a>
+                                    <h1 class="text-xl font-bold font-firaCode tracking-tight text-primaryColor w-10/12 lg:w-8/12">Sahrul Anugerah</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="pt-8 pb-8 bg-primaryColor">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div class="px-4 grid grid-cols-1 lg:grid-cols-3 mt-5 gap-7 lg:gap-[200px]">
+                        <div align="center" class="items-center self-center px-8">
+                            <img src="./img/poulet.png" alt="" class="w-[200px] rounded-full">
+                        </div>
+                        <div class="items-center self-center">
+                            <h1 class="font-bold text-secondaryColor text-xl font-firaCode">Poulet Indonesien</h1>
+                            <p class="font-light text-secondaryColor text-lg font-firaCode w-11/12">JL. Haji Manurung 11, Soeod, Kec. Kayu Manis, Kota Solo Jawa Tengah 134532</p>
+                        </div>
+                        <div class="items-center self-center">
+                            <h1 class="font-bold text-secondaryColor text-xl font-firaCode">Contact Us</h1>
+                            <p class="font-light text-secondaryColor text-lg font-firaCode w-11/12">Email : <span><a href="">pouletidn@gmail.com</a></span></p>
+                            
+                            <p class="font-light text-secondaryColor text-lg font-firaCode w-11/12">Tiktok : <span><a href="">poulet.idn</a></span></p>
+                            
+                            <p class="font-light text-secondaryColor text-lg font-firaCode w-11/12">Instagram : <span><a href="">poulet.idn</a></span></p>
+                            
+                            <p class="font-light text-secondaryColor text-lg font-firaCode w-11/12">WhatsApp : <span><a href="">082323242332</a></span></p>
+                            
+                            <p class="font-light text-secondaryColor text-lg font-firaCode">Website : <span><a href="https://pouletidn.netlify.app">pouletidn.netlify.app</a></span></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="./src/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".title", {
+            strings: ["Indonesien", "Rendang", "Rica Rica", "Sambel Ijo"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+</body>
+</html>
