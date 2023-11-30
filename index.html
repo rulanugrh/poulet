@@ -27,22 +27,103 @@
                         <nav id="nav-menu" class="hidden absolute bg-primaryColor py-5 shadow-md rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
                             <ul class="block lg:flex">
                                 <li class="group">
-                                    <a href="#home" class="font-firaCode hover:bg-black hover:px-2 hover:rounded-lg text-base text-secondaryColor    py-2 mx-6 flex ">Home</a>
+                                    <a href="#home" class="font-firaCode text-base font-bold text-thirdColor py-2 mx-6 flex ">Home</a>
                                 </li>
                                 <li class="group">
-                                    <a href="#about" class="font-firaCode text-base text-secondaryColor hover:bg-black hover:px-2 hover:rounded-lg   py-2 mx-6 flex ">About</a>
+                                    <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" data-dropdown-trigger="hover"  class="text-secondaryColor hover:text-thirdColor py-2 mx-6 flex" type="button">About
+                                    </button>
+                                        
+                                        <!-- Dropdown menu -->
+                                        <div id="dropdown" class="z-10 hidden bg-primaryColor divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                                              <li>
+                                                <a href="#team" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Our Team</a>
+                                              </li>
+                                              <li>
+                                                <a href="#about-us" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">About Us</a>
+                                              </li>
+                                              <li>
+                                                <a href="#about-logo" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">About Logo</a>
+                                              </li>
+                                              <li>
+                                                <a href="#visi" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Visi & Misi</a>
+                                              </li>
+                                            </ul>
+                                    </div>
                                 </li>
                                 <li class="group">
-                                    <a href="#visi" class="font-firaCode text-base text-secondaryColor   hover:bg-black hover:px-2 hover:rounded-lg py-2 mx-6 flex ">Visi & Misi</a>
+                                    <button id="dropdownDefaultButtonProduct" data-dropdown-toggle="dropdownProduct" data-dropdown-trigger="hover"  class="text-secondaryColor hover:text-thirdColor py-2 mx-6 flex" type="button">Product
+                                    </button>
+                                        
+                                        <!-- Dropdown menu -->
+                                        <div id="dropdownProduct" class="z-10 hidden bg-primaryColor divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButtonProduct">
+                                              <li>
+                                                <a href="#product" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Product Catalogue</a>
+                                              </li>
+                                              <li>
+                                                <a href="#packaging" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Packaging</a>
+                                              </li>
+                                              <li>
+                                                <a href="#value" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Value Proposition</a>
+                                              </li>
+                                            </ul>
+                                    </div>
                                 </li>
                                 <li class="group">
-                                    <a href="#product" class="font-firaCode text-base text-secondaryColor hover:bg-black hover:px-2 hover:rounded-lg  py-2 mx-6   flex ">Product</a>
+                                    <button id="dropdownDefaultButtonStrategy" data-dropdown-toggle="dropdownStrategy" data-dropdown-trigger="hover"  class="text-secondaryColor hover:text-thirdColor py-2 mx-6 flex" type="button">Strategy
+                                    </button>
+                                        
+                                        <!-- Dropdown menu -->
+                                        <div id="dropdownStrategy" class="z-10 hidden bg-primaryColor divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButtonStrategy">
+                                              <li>
+                                                <a href="#consument" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Consument Strategy</a>
+                                              </li>
+                                              <li>
+                                                <a href="#market-strategy" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Market Strategy</a>
+                                              </li>
+                                              <li>
+                                                <a href="#market-size" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Market Size</a>
+                                              </li>
+                                              <li>
+                                                <a href="#revenue" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Revenue Streams</a>
+                                              </li>
+                                              <li>
+                                                <a href="#revenue" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Competitor Analysis</a>
+                                              </li>
+                                              <li>
+                                                <a href="#problem" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Problem & Solution</a>
+                                              </li>
+                                              <li>
+                                                <a href="#milestone" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Milestone</a>
+                                              </li>
+                                            </ul>
+                                    </div>
                                 </li>
                                 <li class="group">
-                                    <a href="#team" class="font-firaCode text-base text-secondaryColor hover:bg-black hover:px-2 hover:rounded-lg   py-2 mx-6 flex ">Team</a>
+                                    <button id="dropdownDefaultButtonProve" data-dropdown-toggle="dropdownProve" data-dropdown-trigger="hover"  class="text-secondaryColor hover:text-thirdColor py-2 mx-6 flex" type="button">Proof
+                                    </button>
+                                        
+                                        <!-- Dropdown menu -->
+                                        <div id="dropdownProve" class="z-10 hidden bg-primaryColor divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButtonProve">
+                                              <li>
+                                                <a href="#advisor" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Advisor</a>
+                                              </li>
+                                              <li>
+                                                <a href="#bts" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Video</a>
+                                              </li>
+                                              <li>
+                                                <a href="#gallery" class="block px-4 py-2 font-firaCode text-base text-secondaryColor">Gallery Transaction</a>
+                                              </li>
+                                              
+                                            </ul>
+                                    </div>
                                 </li>
+                                
                                 <li class="group">
-                                    <a href="#contact" class="font-firaCode text-base text-secondaryColor  hover:bg-black hover:px-2 hover:rounded-lg  py-2 mx-6 flex ">Contact</a>
+                                    <a href="#contact" class="font-firaCode text-base text-secondaryColor  hover:text-thirdColor  py-2 mx-6 flex ">Contact</a>
                                 </li>
                             </ul>
                         </nav>
@@ -124,7 +205,7 @@
             </div>
         </section>
 
-        <section id="about" class="pt-24 pb-12 lg:pt-12 bg-secondaryColor">
+        <section id="about-us" class="pt-24 pb-12 lg:pt-12 bg-secondaryColor">
             <img src="./img/bgart.png" alt="" class="invisible lg:visible absolute w-full">            
             <h1 class="text-center font-medium italic pt-10 text-2xl font-firaCode text-black relative underline pb-5">About Us</h1>
             <div class="container relative">
@@ -141,7 +222,7 @@
             </div>
         </section>
 
-        <section id="about" class="pt-24 pb-10 lg:pt-[145px] bg-secondaryColor">
+        <section id="about-logo" class="pt-24 pb-10 lg:pt-[145px] bg-secondaryColor">
             <img src="./img/bgart.png" alt="" class="invisible lg:visible absolute w-full">            
             <h1 class="text-center font-medium italic pt-10 text-2xl font-firaCode text-black relative underline pb-5">About Logo</h1>
             <div class="container relative">
@@ -536,7 +617,7 @@
                 </div>
              </div>
         </section>
-        <section id="market" class="pt-5 pb-24  bg-secondaryColor">
+        <section id="market-size" class="pt-5 pb-24  bg-secondaryColor">
             <h1 class="text-center font-medium italic pt-16 text-2xl font-firaCode text-black relative underline pb-5">Market Size</h1>
             <div class="container">
                 <div class="flex flex-wrap">
@@ -622,7 +703,51 @@
                 </div>                    
             </div>
         </section>
+        
+        <section id="milestone" class="pb-8 bg-secondaryColor">
+            <h1 class="text-center font-medium italic pt-16 text-2xl font-firaCode text-black relative underline pb-5">Milestone</h1>
 
+            <div class="container">
+                <div class="flex flex-wrap">
+                    
+                    <ol class="relative border-s border-gray-200 dark:border-gray-700">                  
+                        <li class="mb-10 ms-8">            
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white/10 backdrop-blur dark:ring-gray-900 dark:bg-blue-900">
+                                <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                                </svg>
+                            </span>
+                            <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Milestone 1 Bulan <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">Latest</span></h3>
+                            <time class="block mb-2 text-sm font-normal leading-none text-darkColor">20 December 2023 - 20 Januari 2023</time>
+                            <p class="mb-4 text-base font-normal text-primaryColor">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                            <p class="mb-4 text-base font-normal text-primaryColor">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                            <p class="mb-4 text-base font-normal text-primaryColor">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                            <p class="mb-4 text-base font-normal text-primaryColor">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                            <p class="mb-4 text-base font-normal text-primaryColor">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                            
+                        </li>
+                        <li class="mb-10 ms-8">
+                            <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white/10 backdrop-blur dark:ring-gray-900 dark:bg-blue-900">
+                                <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                                </svg>
+                            </span>
+                            <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Milestone 1 Tahun</h3>
+                            <time class="block mb-2 text-sm font-normal leading-none text-darkColor">Tahun 2023 - Tahun 2024</time>
+                            <p class="mb-4 text-base font-normal text-primaryColor">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                            <p class="mb-4 text-base font-normal text-primaryColor">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                            <p class="mb-4 text-base font-normal text-primaryColor">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                            <p class="mb-4 text-base font-normal text-primaryColor">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                            <p class="mb-4 text-base font-normal text-primaryColor">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                        
+                        </li>
+                        
+                    </ol>
+
+
+                </div>
+            </div>
+        </section>
         <section id="contact" class="pt-8 pb-8 bg-primaryColor">
             <div class="container">
                 <div class="flex flex-wrap">
