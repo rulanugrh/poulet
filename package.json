@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "apexcharts": "^3.44.0",
-    "flowbite": "^2.2.0"
+    "flowbite": "^2.2.0",
+    "particlesjs": "^2.2.3"
   }
 }
