@@ -4173,10 +4173,6 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-5{
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
   .lg\:gap-12{
     gap: 3rem;
   }
@@ -4198,8 +4194,8 @@ body {
     padding-right: 5rem;
   }
 
-  .lg\:pb-36{
-    padding-bottom: 9rem;
+  .lg\:pb-40{
+    padding-bottom: 10rem;
   }
 
   .lg\:pb-\[70px\]{
@@ -4210,20 +4206,12 @@ body {
     padding-top: 6rem;
   }
 
-  .lg\:pt-48{
-    padding-top: 12rem;
-  }
-
   .lg\:pt-36{
     padding-top: 9rem;
   }
 
-  .lg\:pb-48{
-    padding-bottom: 12rem;
-  }
-
-  .lg\:pb-60{
-    padding-bottom: 15rem;
+  .lg\:pt-48{
+    padding-top: 12rem;
   }
 
   .lg\:text-3xl{
