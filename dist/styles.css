@@ -1656,6 +1656,10 @@ input:checked + .toggle-bg{
   width: 18rem;
 }
 
+.w-8\/12{
+  width: 66.666667%;
+}
+
 .w-\[200px\]{
   width: 200px;
 }
@@ -1666,6 +1670,10 @@ input:checked + .toggle-bg{
 
 .w-full{
   width: 100%;
+}
+
+.w-7\/12{
+  width: 58.333333%;
 }
 
 .max-w-\[250px\]{
@@ -2851,6 +2859,11 @@ input:checked + .toggle-bg{
   background-color: rgb(17 24 39 / 0.5);
 }
 
+.bg-outer2Color{
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 87 61 / var(--tw-bg-opacity));
+}
+
 .bg-outerColor{
   --tw-bg-opacity: 1;
   background-color: rgb(218 162 109 / var(--tw-bg-opacity));
@@ -2881,11 +2894,6 @@ input:checked + .toggle-bg{
 
 .bg-white\/50{
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-outer2Color{
-  --tw-bg-opacity: 1;
-  background-color: rgb(140 87 61 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-br{
