@@ -2086,6 +2086,10 @@ input:checked + .toggle-bg{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -2818,6 +2822,11 @@ input:checked + .toggle-bg{
   background-color: rgb(26 86 219 / var(--tw-bg-opacity));
 }
 
+.bg-darkColor{
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 113 38 / var(--tw-bg-opacity));
+}
+
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -2840,6 +2849,11 @@ input:checked + .toggle-bg{
 
 .bg-gray-900\/50{
   background-color: rgb(17 24 39 / 0.5);
+}
+
+.bg-outerColor{
+  --tw-bg-opacity: 1;
+  background-color: rgb(218 162 109 / var(--tw-bg-opacity));
 }
 
 .bg-primaryColor{
@@ -2867,6 +2881,11 @@ input:checked + .toggle-bg{
 
 .bg-white\/50{
   background-color: rgb(255 255 255 / 0.5);
+}
+
+.bg-outer2Color{
+  --tw-bg-opacity: 1;
+  background-color: rgb(140 87 61 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-br{
@@ -4333,6 +4352,10 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
   .lg\:gap-12{
     gap: 3rem;
   }
@@ -4366,8 +4389,8 @@ body {
     padding-bottom: 10rem;
   }
 
-  .lg\:pb-\[70px\]{
-    padding-bottom: 70px;
+  .lg\:pb-\[60x\]{
+    padding-bottom: 60x;
   }
 
   .lg\:pl-2{

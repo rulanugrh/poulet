@@ -17,7 +17,9 @@ module.exports = {
         primaryColor: "#552E27",
         secondaryColor: "#EEC39A",
         thirdColor: "#D9A066",
-        darkColor: "#DF7126"
+        darkColor: "#DF7126",
+        outerColor: "#DAA26D",
+        outer2Color: "#8C573D"
       },
     },
   },
