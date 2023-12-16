@@ -1424,6 +1424,10 @@ input:checked + .toggle-bg{
   margin-bottom: 1.25rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .me-1{
   -webkit-margin-end: 0.25rem;
           margin-inline-end: 0.25rem;
@@ -1600,10 +1604,6 @@ input:checked + .toggle-bg{
   height: 2.25rem;
 }
 
-.h-\[500px\]{
-  height: 500px;
-}
-
 .h-\[600px\]{
   height: 600px;
 }
@@ -1668,12 +1668,12 @@ input:checked + .toggle-bg{
   width: 100%;
 }
 
-.w-8\/12{
-  width: 66.666667%;
+.w-5{
+  width: 1.25rem;
 }
 
-.w-9\/12{
-  width: 75%;
+.max-w-5xl{
+  max-width: 64rem;
 }
 
 .max-w-\[250px\]{
@@ -1682,30 +1682,6 @@ input:checked + .toggle-bg{
 
 .max-w-sm{
   max-width: 24rem;
-}
-
-.max-w-lg{
-  max-width: 32rem;
-}
-
-.max-w-xl{
-  max-width: 36rem;
-}
-
-.max-w-2xl{
-  max-width: 42rem;
-}
-
-.max-w-3xl{
-  max-width: 48rem;
-}
-
-.max-w-4xl{
-  max-width: 56rem;
-}
-
-.max-w-5xl{
-  max-width: 64rem;
 }
 
 .flex-1{
@@ -3085,6 +3061,10 @@ input:checked + .toggle-bg{
   background-origin: content-box;
 }
 
+.fill-current{
+  fill: currentColor;
+}
+
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
@@ -3244,6 +3224,10 @@ input:checked + .toggle-bg{
   padding-bottom: 2rem;
 }
 
+.pl-1{
+  padding-left: 0.25rem;
+}
+
 .pl-2{
   padding-left: 0.5rem;
 }
@@ -3291,18 +3275,6 @@ input:checked + .toggle-bg{
 
 .pt-8{
   padding-top: 2rem;
-}
-
-.pt-6{
-  padding-top: 1.5rem;
-}
-
-.pl-5{
-  padding-left: 1.25rem;
-}
-
-.pl-1{
-  padding-left: 0.25rem;
 }
 
 .text-left{
@@ -4344,10 +4316,6 @@ body {
 }
 
 @media (min-width: 1024px){
-  .lg\:visible{
-    visibility: visible;
-  }
-
   .lg\:static{
     position: static;
   }
