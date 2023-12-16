@@ -1608,6 +1608,10 @@ input:checked + .toggle-bg{
   height: 600px;
 }
 
+.h-auto{
+  height: auto;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -1660,10 +1664,6 @@ input:checked + .toggle-bg{
   width: 18rem;
 }
 
-.w-9\/12{
-  width: 75%;
-}
-
 .w-\[200px\]{
   width: 200px;
 }
@@ -1676,16 +1676,16 @@ input:checked + .toggle-bg{
   width: 100%;
 }
 
-.w-8\/12{
-  width: 66.666667%;
-}
-
 .max-w-5xl{
   max-width: 64rem;
 }
 
 .max-w-\[250px\]{
   max-width: 250px;
+}
+
+.max-w-full{
+  max-width: 100%;
 }
 
 .max-w-sm{
@@ -2304,6 +2304,10 @@ input:checked + .toggle-bg{
 
 .gap-3{
   gap: 0.75rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .gap-5{
@@ -3249,6 +3253,10 @@ input:checked + .toggle-bg{
   padding-top: 2.5rem;
 }
 
+.pt-12{
+  padding-top: 3rem;
+}
+
 .pt-16{
   padding-top: 4rem;
 }
@@ -3283,10 +3291,6 @@ input:checked + .toggle-bg{
 
 .pt-8{
   padding-top: 2rem;
-}
-
-.pt-12{
-  padding-top: 3rem;
 }
 
 .text-left{
@@ -4322,6 +4326,10 @@ body {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:p-6{
     padding: 1.5rem;
   }
