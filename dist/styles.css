@@ -1604,6 +1604,10 @@ input:checked + .toggle-bg{
   height: 2.25rem;
 }
 
+.h-\[250px\]{
+  height: 250px;
+}
+
 .h-\[600px\]{
   height: 600px;
 }
@@ -1666,6 +1670,10 @@ input:checked + .toggle-bg{
 
 .w-\[200px\]{
   width: 200px;
+}
+
+.w-\[300px\]{
+  width: 300px;
 }
 
 .w-\[50px\]{
@@ -3224,6 +3232,10 @@ input:checked + .toggle-bg{
   padding-bottom: 7rem;
 }
 
+.pb-4{
+  padding-bottom: 1rem;
+}
+
 .pb-40{
   padding-bottom: 10rem;
 }
@@ -4352,12 +4364,20 @@ body {
     display: none;
   }
 
+  .lg\:h-\[500px\]{
+    height: 500px;
+  }
+
   .lg\:h-full{
     height: 100%;
   }
 
   .lg\:w-1\/2{
     width: 50%;
+  }
+
+  .lg\:w-10\/12{
+    width: 83.333333%;
   }
 
   .lg\:w-6\/12{
@@ -4370,6 +4390,10 @@ body {
 
   .lg\:w-9\/12{
     width: 75%;
+  }
+
+  .lg\:w-\[900px\]{
+    width: 900px;
   }
 
   .lg\:max-w-full{
